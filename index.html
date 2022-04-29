@@ -15,14 +15,12 @@
       <h1>Vikas Choudhary</h1>
       <p>Senior Technical Assistant</p>
     </div>
-    <div id="hamsburger">
-      <ul onclick="animateMenu();">
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+    <div id="hamsburger" onclick="animateMenu(this); changeMenuDisp();">
+      <span id="bar1"></span>
+      <span id="bar2"></span>
+      <span id="bar3"></span>
     </div>
-    <nav>
+    <nav class="menu">
       <ul>
         <li><a href="#">About Me</a></li>
         <li><a href="#">Projects</a></li>
@@ -30,5 +28,6 @@
       </ul>
     </nav>
   </header>
+  <script src="JS/script.js"></script>
 </body>
 </html>
