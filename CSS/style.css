@@ -131,6 +131,14 @@ header {
 }
 
 @media only screen and (min-width: 601px) {
+  #user h1 {
+    font-size: 3.8em;
+  }
+
+  #user p {
+    font-size: 1.8em;
+  }
+
   #hamsburger {
     display: none;
   }
