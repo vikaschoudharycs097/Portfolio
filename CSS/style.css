@@ -75,6 +75,7 @@ header {
 #user h1 {
   font-size: 3.1em;
   padding-bottom: 5px;
+  color: #fa1100;
 }
 
 #user p {
@@ -111,7 +112,7 @@ header {
 .menu {
   display: none;
   margin: 0 30px;
-  background-color: orangered;
+  background-color: #ff5145;
   position: relative;
   z-index: 1;
   box-shadow: 10px 10px #333;
@@ -128,6 +129,33 @@ header {
 
 .menu-show {
   display: block;
+}
+
+#about_me {
+  width: 80%;
+  margin: 30px auto;
+}
+
+#about_me h2 {
+  font-size: 2.5em;
+  color: #ff5145;
+}
+
+#about_me hr {
+  border: 2px solid #ff5145;
+}
+ 
+#about_me img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+#about_me p {
+  margin: 10px;
+  color: white;
+  font-size: 1.5em;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 601px) {
