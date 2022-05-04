@@ -131,17 +131,17 @@ header {
   display: block;
 }
 
-#about_me {
-  width: 80%;
+#about_me, #skills {
+  width: 90%;
   margin: 30px auto;
 }
 
-#about_me h2 {
+section h2 {
   font-size: 2.5em;
   color: #ff5145;
 }
 
-#about_me hr {
+section hr {
   border: 2px solid #ff5145;
 }
  
@@ -156,6 +156,23 @@ header {
   color: white;
   font-size: 1.5em;
   text-align: justify;
+}
+
+section h3 {
+  color: #fce653;
+  font-size: 1.9em;
+}
+
+section ul {
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  list-style-type: disc;
+}
+
+section li {
+  color: white;
+  font-size: 1.4em;
 }
 
 @media only screen and (min-width: 601px) {
