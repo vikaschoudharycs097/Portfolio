@@ -220,4 +220,9 @@ section li {
     grid-template-columns: 30% 70%;
     align-items: center;
   }
+
+  #skills div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
