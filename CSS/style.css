@@ -212,6 +212,10 @@ section li {
     transition: 0.5s;
     border-radius: 15px;
   }
+
+  #about_me, #skills {
+    width: 75%;
+  }
 }
 
 @media only screen and (min-width: 801px) {
