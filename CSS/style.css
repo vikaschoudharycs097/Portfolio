@@ -131,7 +131,7 @@ header {
   display: block;
 }
 
-#about_me, #skills {
+#about_me, #skills, #projects {
   width: 90%;
   margin: 30px auto;
 }
@@ -213,7 +213,7 @@ section li {
     border-radius: 15px;
   }
 
-  #about_me, #skills {
+  #about_me, #skills, #projects {
     width: 75%;
   }
 }
