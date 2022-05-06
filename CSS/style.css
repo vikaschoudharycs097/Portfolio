@@ -173,6 +173,20 @@ section ul {
 section li {
   color: white;
   font-size: 1.4em;
+} 
+
+section p {
+  font-size: 1.5em;
+  color: #3fd93d;
+} 
+
+section li a {
+  text-decoration: none;
+  color: #fa64e8;
+}
+
+section li a:hover {
+  text-decoration:  underline;
 }
 
 @media only screen and (min-width: 601px) {
