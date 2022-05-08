@@ -131,7 +131,7 @@ header {
   display: block;
 }
 
-#about_me, #skills, #projects {
+#about_me, #skills, #projects, #education {
   width: 90%;
   margin: 30px auto;
 }
@@ -227,7 +227,7 @@ section li a:hover {
     border-radius: 15px;
   }
 
-  #about_me, #skills, #projects {
+  #about_me, #skills, #projects, #education {
     width: 75%;
   }
 }
