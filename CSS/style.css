@@ -58,12 +58,10 @@ table {
 body {
   font-family: Iceland;
   background-image: linear-gradient(to bottom right, #000428, #004e92);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 header {
-  color: white;
+  color: #fff;
 }
 
 #user {
@@ -92,7 +90,7 @@ header {
   margin: 5px 10px;
   height: 6px;
   width: 40px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 3px;
   transition: 0.5s;
 }
@@ -122,7 +120,7 @@ header {
 .menu li a{
   padding: 2px 0;
   display: block;
-  color: white;
+  color: #fff;
   font-size: 1.6em;
   text-decoration: none;
 }
@@ -153,7 +151,7 @@ section hr {
 
 #about_me p {
   margin: 10px;
-  color: white;
+  color: #fff;
   font-size: 1.5em;
   text-align: justify;
 }
@@ -164,18 +162,16 @@ section h3 {
 }
 
 h3 span {
-  color: white;
+  color: #fff;
 }
 
 section ul {
-  display: block;
-  margin-bottom: 20px;
-  margin-left: 30px;
+  margin: 0 0 20px 30px;
   list-style-type: disc;
 }
 
 section li {
-  color: white;
+  color: #fff;
   font-size: 1.4em;
 } 
 
@@ -209,8 +205,7 @@ section li a:hover {
   .menu {
     display: block;
     background-color: rgba(0,0,0,0);
-    box-shadow: none;
-    
+    box-shadow: none; 
   }
 
   .menu li {
@@ -225,7 +220,7 @@ section li a:hover {
 
   .menu li a:hover {
     text-decoration: underline;
-    background-color: black;
+    background-color: #000;
     font-size: 1.7em;
     transition: 0.5s;
     border-radius: 15px;
